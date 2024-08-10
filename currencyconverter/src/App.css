@@ -1,0 +1,43 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url('/pexels-alesiakozik-6771985.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+}
+.container{
+    height: 400px;
+    width: 800px;
+    border: 1px solid rgb(254, 250, 250);
+    border-radius: 10px;
+    place-self: center;
+    backdrop-filter: blur(8px);
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.Convert{
+    height: 50px;
+    width: 150px;
+    border:2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+}
+.Convert button{
+    color: bisque;
+    background-color: rgb(37 99 235);
+    font-size: 18px;
+    position: absolute;
+    padding: 10px 40px;
+    border: none;
+}

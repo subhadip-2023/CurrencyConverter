@@ -1,0 +1,16 @@
+.Input{
+    height: 100px;
+    width: 80%;
+    background: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    color: black;
+}
+.input-details{
+    height: 80px;
+    width: 50%;
+    margin: 5px 20px;
+    display: grid;
+    font-size: 20px;
+}
